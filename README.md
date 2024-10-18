@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# MEDIFY - Medical Center Slot Booking Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+MEDIFY is a React-based web application that enables users to find and book appointments at medical centers across the USA. The platform allows users to search for medical facilities in specific states and cities, view available appointments, and manage their bookings seamlessly.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+### Landing Page:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Navigation bar for easy access to various sections: Find Doctors, Hospitals, Medicines, etc.
+Search functionality with dropdowns for selecting states and cities, populated dynamically from an API.
+Additional sections designed as per the provided Figma layout.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Search Results Page:
 
-### `npm test`
+A comprehensive listing of available medical centers based on user-selected criteria.
+Options to book appointments directly from the search results.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Booking Interface:
 
-### `npm run build`
+A user-friendly booking section where users can select a medical center.
+Calendar interface for choosing appointment dates (up to one week in advance).
+Available time slots for selected days displayed for easy booking.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### My Bookings Page:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Personalized view of user bookings, including details like the medical center’s name, appointment date, and time.
+Responsive Design:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fully responsive design ensuring compatibility across devices, adhering to design standards outlined in the Figma mockups.
