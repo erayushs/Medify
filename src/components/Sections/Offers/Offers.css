@@ -1,0 +1,15 @@
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offerImg {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-pagination {
+  margin-top: 10px;
+  bottom: 0;
+}

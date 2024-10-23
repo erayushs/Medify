@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import CssBaseline from "@mui/material/CssBaseline";
+import Headline from "./components/Headline/Headline";
+import Download from "./components/Sections/Download/Download";
+import Footer from "./components/Sections/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CssBaseline />
+      <Headline />
+      <Outlet />
+      <Download />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
